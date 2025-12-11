@@ -1,0 +1,10 @@
+# requirements.txt
+plotly
+python-dotenv
+requests
+pandas
+streamlit
+statsmodels
+prophet    # optional
+watchdog   # optional
+python-dotenv

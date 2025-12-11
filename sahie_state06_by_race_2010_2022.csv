@@ -1,0 +1,53 @@
+YEAR,RACE_DESC,RACECAT,PCTUI_PT,PCTUI_LB90,PCTUI_UB90,NAME,STATE,time,state
+2010,All Races,0,20.7,20.5,20.9,California,6,2010,06
+2010,"White alone, not Hispanic or Latino",1,12.6,12.4,12.8,California,6,2010,06
+2010,"Black or African American alone, not Hispanic or Latino",2,17.1,16.5,17.7,California,6,2010,06
+2010,Hispanic or Latino (any race),3,30.6,30.3,30.9,California,6,2010,06
+2011,All Races,0,20.2,20.0,20.4,California,6,2011,06
+2011,"White alone, not Hispanic or Latino",1,12.8,12.6,13.0,California,6,2011,06
+2011,"Black or African American alone, not Hispanic or Latino",2,16.6,16.0,17.2,California,6,2011,06
+2011,Hispanic or Latino (any race),3,29.1,28.8,29.4,California,6,2011,06
+2012,All Races,0,20.0,19.8,20.2,California,6,2012,06
+2012,"White alone, not Hispanic or Latino",1,12.7,12.5,12.9,California,6,2012,06
+2012,"Black or African American alone, not Hispanic or Latino",2,16.9,16.3,17.5,California,6,2012,06
+2012,Hispanic or Latino (any race),3,28.7,28.4,29.0,California,6,2012,06
+2013,All Races,0,19.4,19.2,19.6,California,6,2013,06
+2013,"White alone, not Hispanic or Latino",1,12.2,12.0,12.4,California,6,2013,06
+2013,"Black or African American alone, not Hispanic or Latino",2,16.8,16.2,17.4,California,6,2013,06
+2013,Hispanic or Latino (any race),3,27.7,27.4,28.0,California,6,2013,06
+2014,All Races,0,14.1,14.0,14.2,California,6,2014,06
+2014,"White alone, not Hispanic or Latino",1,8.6,8.4,8.8,California,6,2014,06
+2014,"Black or African American alone, not Hispanic or Latino",2,10.8,10.3,11.3,California,6,2014,06
+2014,Hispanic or Latino (any race),3,20.9,20.6,21.2,California,6,2014,06
+2015,All Races,0,9.7,9.6,9.8,California,6,2015,06
+2015,"White alone, not Hispanic or Latino",1,5.6,5.5,5.7,California,6,2015,06
+2015,"Black or African American alone, not Hispanic or Latino",2,7.1,6.7,7.5,California,6,2015,06
+2015,Hispanic or Latino (any race),3,15.0,14.8,15.2,California,6,2015,06
+2016,All Races,0,8.4,8.3,8.5,California,6,2016,06
+2016,"White alone, not Hispanic or Latino",1,4.7,4.6,4.8,California,6,2016,06
+2016,"Black or African American alone, not Hispanic or Latino",2,6.2,5.8,6.6,California,6,2016,06
+2016,Hispanic or Latino (any race),3,12.9,12.7,13.1,California,6,2016,06
+2017,All Races,0,8.2,8.1,8.3,California,6,2017,06
+2017,"White alone, not Hispanic or Latino",1,4.8,4.7,4.9,California,6,2017,06
+2017,"Black or African American alone, not Hispanic or Latino",2,6.3,5.9,6.7,California,6,2017,06
+2017,Hispanic or Latino (any race),3,12.4,12.2,12.6,California,6,2017,06
+2018,All Races,0,8.3,8.2,8.4,California,6,2018,06
+2018,"White alone, not Hispanic or Latino",1,5.0,4.9,5.1,California,6,2018,06
+2018,"Black or African American alone, not Hispanic or Latino",2,6.8,6.4,7.2,California,6,2018,06
+2018,Hispanic or Latino (any race),3,12.5,12.3,12.7,California,6,2018,06
+2019,All Races,0,8.9,8.8,9.0,California,6,2019,06
+2019,"White alone, not Hispanic or Latino",1,5.2,5.0,5.4,California,6,2019,06
+2019,"Black or African American alone, not Hispanic or Latino",2,6.4,6.0,6.8,California,6,2019,06
+2019,Hispanic or Latino (any race),3,13.6,13.4,13.8,California,6,2019,06
+2020,All Races,0,8.2,8.1,8.3,California,6,2020,06
+2020,"White alone, not Hispanic or Latino",1,4.6,4.4,4.8,California,6,2020,06
+2020,"Black or African American alone, not Hispanic or Latino",2,7.1,6.6,7.6,California,6,2020,06
+2020,Hispanic or Latino (any race),3,12.4,12.2,12.6,California,6,2020,06
+2021,All Races,0,8.1,8.0,8.2,California,6,2021,06
+2021,"White alone, not Hispanic or Latino",1,4.4,4.2,4.6,California,6,2021,06
+2021,"Black or African American alone, not Hispanic or Latino",2,6.5,6.1,6.9,California,6,2021,06
+2021,Hispanic or Latino (any race),3,12.6,12.4,12.8,California,6,2021,06
+2021,"American Indian and Alaska Native alone, not Hispanic or Latino",4,11.0,9.9,12.1,California,6,2021,06
+2021,"Asian alone, not Hispanic or Latino",5,4.3,4.1,4.5,California,6,2021,06
+2021,"Native Hawaiian and Other Pacific Islander alone, not Hispanic or Latino",6,8.3,6.8,9.8,California,6,2021,06
+2021,"Two or More Races, not Hispanic or Latino",7,4.5,4.2,4.8,California,6,2021,06
