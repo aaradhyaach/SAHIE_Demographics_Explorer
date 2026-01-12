@@ -2,11 +2,13 @@ The live version of the interactive Streamlit dashboard can be found at the foll
 https://aaradhyaach-sahie-explorer.streamlit.app/
 
 1. Introduction
+
 Health insurance coverage remains one of the most important determinants of access to care and long-term health outcomes in the United States. Over the past fifteen years, major federal and state policy changes (including the Affordable Care Act (ACA), Medicaid expansion, and temporary coverage protections introduced during the COVID-19 public health emergency) have reshaped the insurance landscape. These shifts have not affected all demographic groups. Persistent disparities continue to influence who receives coverage and who remains uninsured, particularly among racial and ethnic minority groups, younger adults, and residents of non-expansion states (Keisler-Starkey & Bunch, 2022).
 To study these changes systematically, this project develops the Small Area Health Insurance Estimates (SAHIE) Demographics Explorer, an interactive web-based tool designed to visualize annual insured and uninsured rates across states, stratified by Race, Age, and Sex. The tool is built upon the Census Bureau’s SAHIE Time Series API, which provides single-year modeled estimates with corresponding 90% confidence intervals (Bauder et al., 2024). The goal is to give researchers and policymakers a clearer view of how coverage has changed over time (particularly during the COVID-19 period0 and to highlight demographic groups that may require additional policy attention.
 
 
 2. Background and Motivation
+
 The SAHIE program is the most comprehensive federal resource for modeled annual health insurance estimates at the national, state, and county levels. Unlike broad surveys such as the American Community Survey (ACS), SAHIE integrates multiple administrative and survey inputs to produce statistically stabilized estimates designed for small-area analysis (U.S. Census Bureau, 2023). This makes SAHIE particularly useful for studying trends across multiple demographic categories and over time.
 Several features of the SAHIE dataset make it well-suited for temporal analysis:
 It provides annual, consistently structured estimates from 2010 onward.
@@ -16,6 +18,7 @@ The motivation for developing the Explorer stems from the absence of publicly ac
 
 
 3. Goals and Research Questions
+
 The overarching aim is to create a platform that allows users to explore patterns in health insurance coverage with clarity and flexibility. The project focuses on the following questions:
 How have insured and uninsured percentages changed over time across Race, Age, and Sex categories? This includes identifying both gradual changes and sharper shifts during the COVID-19 period.
 How does the level of uncertainty vary by demographic subgroup and state?
@@ -24,6 +27,7 @@ Are there identifiable inflection points or anomalies that align with major poli
 These questions tie directly to core themes in temporal data science, including the identification of trends, breakpoints, and disparities in high-dimensional time series datasets.
 
 4. Dataset Description
+
 The project uses the Census Small Area Health Insurance Estimates Time Series API, which returns annual modeled health insurance estimates for U.S. states and counties.
 Data Source: Census Bureau Small Area Health Insurance Estimates (Timeseries API)
 Data Scale
@@ -37,6 +41,7 @@ Uncertainty Bounds: Lower and upper 90% confidence intervals
 SAHIE’s methodology relies on hierarchical modeling and multi-source inputs, resulting in more stable small-area estimates than survey data alone (Bauder et al., 2024). At the same time, the modeled nature of the data underscores the importance of communicating uncertainty clearly.
 
 5. Clients and Use Cases
+
 The Explorer is built with several audiences in mind:
 Public health researchers, who examine disparities in access to coverage.
 State health agencies, which track population-level insurance trends and design outreach efforts.
@@ -44,6 +49,7 @@ Policy analysts, who evaluate the effects of federal and state policies, particu
 The tool’s multi-filter interface allows users to compare demographic subgroups and explore how different states experienced the COVID-19 period.
 
 6. Methods and System Design
+
 6.1 Technology Stack
 The project uses:
 Python for data processing.
@@ -55,6 +61,7 @@ Environment variables for securely storing API keys.
 
 
 6.2 Data Processing Pipeline
+
 API Querying:  The application sends year-specific requests to the SAHIE API and returns JSON responses.
 Preprocessing:  Steps include renaming variables, converting data types, mapping coded demographics to readable labels, and filtering out incomplete or overly aggregated observations.
 Storage and Structuring: Cleaned data is stored in DataFrames grouped by demographic category.
@@ -82,10 +89,12 @@ Anomaly Detection
 Sudden changes, such as the increases in insured rates following COVID-19 relief policies, can be identified visually.
 
 8. Discussion
+
 The Explorer demonstrates how combining modeled estimates, uncertainty visualization, and interactive filtering can support nuanced analysis of health insurance coverage trends. The tool captures the substantial rise in insurance coverage during the public health emergency, driven largely by continuous Medicaid enrollment requirements enacted under the Families First Coronavirus Response Act (ASPE, 2022). These gains were especially notable among historically underserved groups such as Hispanic and Black populations.
 At the same time, several limitations must be acknowledged. SAHIE data are modeled rather than directly observed, and precision varies significantly by subgroup and geography. Additionally, while the Explorer provides visual evidence of COVID-era shifts, deeper statistical modeling (such as interrupted time-series analysis or difference-in-differences comparisons between Medicaid expansion and non-expansion states) would strengthen causal interpretation (Dague et al., 2023).
 
 9. Analysis
+
 The analysis centers on trends in Percent Insured between 2019 and 2022—a period that captures pre-pandemic conditions, the onset of COVID-19, and the continuation of emergency protections.
 
 
